@@ -57,4 +57,22 @@ tr:nth-child(even) {background-color:slategray;}
     text-shadow: 2px 2px hotpink;
     border-style:groove;
     border-color: black;
+    filter:blur(0.9px);
 }
+
+.navbonus{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.itemsnav{
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
